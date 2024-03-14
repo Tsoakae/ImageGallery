@@ -1,0 +1,47 @@
+/* styles.css */
+
+/* Style for the root node */
+.root {
+    -fx-background-color: #9fa8da;
+    }
+
+/* Style for the labels */
+.label {
+    -fx-alignment: center;
+    -fx-font-size: 20px;
+    -fx-font-family: "Arial", sans-serif; /* Change font family */
+    -fx-font-weight: bold;
+}
+
+/* Style for the thumbnails grid */
+#thumbnailsGrid {
+    -fx-padding: 20px;
+}
+
+/* Style for the full picture scene */
+#fullPictureScene {
+    -fx-padding: 20px;
+}
+
+/* Style for the buttons */
+.button {
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-background-color: pink;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+/* Hover effect for buttons */
+.button:hover {
+    -fx-background-color: white;
+    -fx-text-fill: pink;
+}
+
+/* Center headings */
+.heading {
+    -fx-alignment: center;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 0;
+}
